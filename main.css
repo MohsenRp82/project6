@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 15vh;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+}
+.logo img{
+    padding-top: 30px;
+}
+.menu ul{
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 50px;
+}
+.menu ul li{
+    width: 7%;
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+}
+a{
+    color: black;
+}
+.main1{
+    background-color: white;
+    display: flex;
+    display: block;
+    justify-content: center;
+    padding-top: 30px;
+}
+.main1 img{
+    position: relative;
+    width: 100%;
+}
+.main1 h1{
+    position: absolute;
+    left: 50%;
+    bottom: 55%;
+    background-color: white;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    padding: 10px;
+}
+.h2A{
+    position: absolute;
+    left: 50%;
+    bottom: 43%;
+    font-size: 30px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+.h2B{
+    position: absolute;
+    left: 50%;
+    bottom: 37%;
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+.h2C{
+    position: absolute;
+    left: 50%;
+    bottom: 31%;
+    font-size: 30px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+h3{
+    position: absolute;
+    left: 50%;
+    bottom: 18%;
+    color: white;
+    background-color:cadetblue;
+    font-size: 40px;
+    padding: 10px;
+}
+section.main2{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main2 h1{
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+.main2 img{
+    margin-right: 60px;
+}
+.main2 div{
+    padding-left: 80px;
+    padding-top: 40px;
+}
+.main3{
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+    position:relative;
+    
+}
+.copyRight{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.socialM{
+    position: absolute;
+    left: 65%;
+    top: 35%;
+}
+.socialM img{
+    padding-left: 20px;
+}
